@@ -1,0 +1,120 @@
+.content .banner{
+	width: 100%;
+	height: 528px;
+}
+.content .part1{
+	width: 100%;
+	background: #fff;
+	height: 330px;
+	margin-bottom: 40px;
+}
+.content .part1 .left{
+	width: 290px;
+	height: 440px;
+	border-radius: 3px;
+	background: #FCCC18;
+	margin-top: -110px;
+	position: relative;
+	z-index: 2;
+	color: #fff;
+	text-transform: uppercase;
+	overflow: hidden;
+}
+.content .part1 .left .p1{
+    font-size: 42px;
+    padding-left: 25px;
+    padding-top: 35px;
+    margin-bottom: 5px;
+}
+.content .part1 .left .p2{
+	font-size: 36px;
+	padding-left: 25px;
+}
+.content .part1 .left .line{
+    width: 50px;
+    height: 4px;
+    background: #fff;
+    margin-top: 22px;
+    margin-bottom: 45px;
+    margin-left: 25px;
+}
+.content .part1 .right{
+	width: 840px;
+}
+.content .part1 .right .title{
+    font-size: 28px;
+    margin-bottom: 25px;
+    margin-top: 41px;
+}
+.content .part1 .right p{
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.part2{
+	padding: 25px;
+	background: #fff;
+	border-radius: 3px;
+	margin-bottom: 45px;	
+	box-sizing: border-box;
+}
+.part2 .part-con{
+	position: relative;
+}
+.part2 .title{
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.part2 .list1{
+	width: 100px;
+	margin-right: 25px;
+}
+.part2 .data-con{
+	width: 900px;
+}
+.part2 .data-con .item1{
+	display: block;
+}
+.part2 .data-con .item2{
+	display: none;
+}
+.part2 ul li{
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #999;
+	margin-bottom: 8px;
+}
+.part2 .data-con ul li{
+	color: #333;
+}
+.part2 ul li img{
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.part2 ul li input{
+	display: block;
+	width: 100%;
+	background: #f3f3f3;
+	height: 40px;
+	line-height: 38px;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #333;
+	padding: 0 10px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+}
+.part2 .data-btn{
+	position: absolute;
+	bottom: 8px;
+	right: 0;
+}
+
+
+

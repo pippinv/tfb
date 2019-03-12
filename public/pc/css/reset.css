@@ -1,0 +1,116 @@
+.top{
+	margin-top: 40px;
+	margin-bottom: 28px;
+	font-size: 0;
+}
+.top img{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.top span{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 24px;
+}
+.bottom{
+	font-size: 12px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: #999;
+	text-align: center;
+}
+
+.middle{
+	background: #fff;
+	border-radius: 3px;
+	padding-bottom: 75px;
+}
+.middle .item{
+	display: none;
+}
+.middle .item1{
+	display: block;
+}
+.middle .title{
+	background: #FCCC18;
+	text-align: center;
+	height: 64px;
+	line-height: 64px;
+	font-size: 26px;
+	position: relative;
+}
+.middle .p1{
+	margin-top: 50px;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 35px;
+}
+.middle ul{
+	margin: 0 auto;
+	width: 340px;
+}
+.middle ul li{
+	width: 100%;
+	height: 44px;
+	line-height: 44px;
+	margin-bottom: 20px;
+	font-size: 0;
+}
+.middle ul li input{
+	font-size: 16px;
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	background: #F3F3F3;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+
+.middle .item1 ul li:last-child input{
+	width: 230px;
+	display: inline-block;
+} 
+.middle .item1 ul li .get-code-btn{
+	display: inline-block;
+	font-size: 16px;
+	width: 100px;
+	height: 100%;
+	border-radius: 5px;
+	background: #FCCC18;
+	margin-left: 10px;
+	text-align: center;
+	cursor: pointer;
+}
+.middle .item1 ul li .get-code:active{
+	background: rgba(252, 204, 24,.8);
+}
+.middle .btn{
+	text-align: center;
+	width: 340px;
+	line-height: 44px;
+	height: 44px;
+	font-size: 16px;
+	background: #FCCC18;
+	border-radius: 5px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.middle .btn:active{
+	background: rgba(252, 204, 24,.8);
+}
+
+.reset-back{
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 14px;
+	z-index: 2;
+	cursor: pointer;
+}
+.reset-back img{
+	height: 36px;
+	display: block;
+}
+

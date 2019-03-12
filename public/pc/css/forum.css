@@ -1,0 +1,144 @@
+.content .y-row{
+	margin-top: 15px;
+}
+.content .list1 li{
+	background: #fff;
+	border-radius: 3px;
+	background: #fff;
+	margin-bottom: 10px;
+	padding: 20px 20px 25px;
+}
+.content .list1 li a{
+	display: block;
+	height: 100%;
+}
+.content .list1 li .top .img1{
+	display: inline-block;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.content .list1 li .top{
+	font-size: 0;
+}
+.content .list1 li .top .name{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 18px;
+	margin-left: 15px;
+	margin-right: 25px;
+}
+.content .list1 li .top .date{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 14px;
+	color: #999;
+	margin-right: 25px;
+}
+.content .list1 li .top .li-top{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0;
+	cursor: pointer;
+}
+.content .list1 li .top .li-top img{
+	margin-right: 5px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.content .list1 li .top .li-top span{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 14px;
+	color: #ff6700;
+}
+.content .list1 li:first-child .top .li-top{
+	display: none;
+}
+.content .list1 li .title{
+	font-size: 24px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-bottom: 25px;
+	margin-top: 18px;
+}
+.content .list1 li .li-con p{
+	font-size: 16px;
+	color: #555;
+	line-height: 32px;
+	height: 96px;
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+}
+.content .list1 li p span{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background: #fff;
+	width: 120px;
+	color: #FCCC18;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.content .list1 li .li-con img{
+	width: 170px;
+	height: 170px;
+	border-radius: 3px;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 25px;
+}
+.content .list1 li .li-con img + p{
+	display: inline-block;
+	width: 960px;
+	height: 160px;
+}
+.content .list1 li .desc{
+	font-size: 0;
+	margin-top: 20px;
+}
+.content .list1 li .desc a{
+	display: inline-block;
+}
+.content .list1 li .desc div{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 60px;
+	font-size: 0;
+	cursor: pointer;
+}
+.content .list1 li .desc img{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.content .list1 li .desc span{
+	font-size: 14px;
+	color: #999;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1;
+}
+/*.content .list1 li .desc div:hover span{
+	color: #FCCC18;
+}*/
+.content .page-nav{
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+

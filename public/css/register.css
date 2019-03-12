@@ -1,0 +1,300 @@
+html,body{
+	background: #fff;
+}
+header{
+	background: #fff;
+}
+header .left-img-box img{
+	width: .23rem;
+	height: .4rem;
+	margin-left: .24rem;
+	margin-top: .24rem;
+}
+
+.content{
+	bottom: 0;
+}
+
+.register1{
+	padding: 0 .4rem;
+	box-sizing: border-box;
+}
+.register1 .part1 img{
+	width: 1.6rem;
+	height: 1.6rem;
+	display: block;
+	margin: .4rem auto 1.14rem auto;
+}
+.register1 .part2 div{
+	position: relative;
+	margin-bottom: 1.16rem;
+}
+.register1 .part2 a{
+	display: block;
+}
+.register1 .part2 div img{
+	width: .24rem;
+	height: .24rem;
+	position: absolute;
+	right: .24rem;
+	top: .32rem;
+}
+
+/*民警注册*/
+/*协警注册*/
+.register2{
+	padding: 0 .4rem .24rem .4rem;
+	box-sizing: border-box;
+}
+.register2 .part1 ul li{
+	width: 100%;
+	border-bottom: 1px solid #d7d7d7;
+	height: 1.04rem;
+	line-height: 1.04rem;
+	font-size: .32rem;
+	position: relative;
+}
+.register2 .part1 ul li span{
+	width: 1.5rem;
+}
+.register2 .part1 ul li input{
+	height: 100%;
+	display: block;
+	width: 3.2rem;
+	font-size: .32rem;
+}
+.register2 .part1 ul li input.code-input{
+	width: 3rem;
+}
+.register2 .part1 ul li input.code-input+div{
+	color: #fccc18;
+}
+.register2 .part1 ul li .arrow{
+	width: .3rem;
+	height: .18rem;
+	margin-top: .35rem;	
+}
+
+.register2 .part1 ul li .arrowr-img{
+	transform: rotate(-90deg);
+}
+
+.register2 .part2{
+	margin-top: .32rem;
+}
+.register2 .part2 h3{
+	font-weight: normal;
+	font-size: .32rem;
+	margin-bottom: .24rem;
+}
+.register2 .part2 .carm-box{
+	position: relative;
+	height: 1.44rem;
+	margin-bottom: .4rem;
+	overflow: hidden;
+}
+.register2 .part2 .carm-box img{
+	width: 1.44rem;
+	height: 1.44rem;
+	margin-right: .24rem;
+}
+.register2 .part2 .carm-num{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: #999;
+	font-size: .24rem;
+}
+.register2 .part2 .agreements{
+	text-align: center;
+	margin-bottom: .24rem;
+}
+.register2 .part2 .agreements img{
+	width: .3rem;
+	height: .3rem;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: .08rem;
+}
+.register2 .part2 .agreements span a{
+	font-weight: bold;
+}
+.register2 .part2 .agreements span{
+	font-size: .26rem;
+	color: #666;
+}
+.sure-btn{
+	color: #fccc18;
+}
+
+/*popup*/
+.popup{
+	width: 86%;
+	background: #fff;
+	position: absolute;
+	left: 7%;
+	top: 50%;
+	z-index: -1;
+	padding: .32rem .24rem;
+	box-sizing: border-box;
+	opacity: 0;
+	transform: scale(.5) translate3d(0,-50%,0);
+	-webkit-transform: scale(.5) translate3d(0,-50%,0);
+	-moz-transform: scale(.5) translate3d(0,-50%,0);
+	-ms-transform: scale(.5) translate3d(0,-50%,0);
+	transition: all .2s ease;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	-o-transition: all .2s ease;
+}
+.popup h3{
+	font-weight: normal;
+	font-size: .3rem;
+	margin-bottom: .24rem;
+}
+.popup ul li {
+	width: 100%;
+	height: .88rem;
+	line-height: .88rem;
+	border-bottom: 1px solid #d7d7d7;
+	font-size: .26rem;
+	position: relative;
+}
+.popup ul li label{
+	width: 100%;
+	padding-right: .5rem;
+	box-sizing: border-box;
+}
+.popup ul li input{
+	width: .32rem;
+	height: .32rem;
+	position: absolute;
+	right: 0;
+	margin-top: .28rem;
+}
+
+#showCityPicker1{
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: none;
+}
+
+/*mui css*/
+.mui-backdrop {
+    position: fixed;
+    z-index: 998;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.3);
+}
+.mui-btn, button, input[type=button], input[type=reset], input[type=submit] {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    cursor: pointer;
+    -webkit-transition: all;
+    transition: all;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    text-align: center;
+    vertical-align: top;
+    white-space: nowrap;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #fff;
+    background-clip: padding-box;
+}
+.mui-btn-blue, .mui-btn-primary, input[type=submit] {
+    color: #fff;
+    border: 1px solid #007aff;
+    background-color: #007aff;
+}
+
+
+/*上传图片*/
+.post-wrap {
+    width: 100%;
+    background: #fff;
+}
+.collapse-content{
+	width: 4.8rem;
+	overflow: hidden;
+}
+.image-item {
+    width: 1.44rem;
+    height: 1.44rem;
+    background-image: url(../img/carm.png);
+    background-size: 100% 100%;
+    position: relative;
+    border-radius: .08rem;
+    margin-left: .16rem;
+    margin-bottom: .16rem;
+    float: left;
+}
+.post-wrap .image-item:first-child{
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.post-wrap p.tip {
+    font-size: .24rem;
+    color: #999;
+    margin-left: .08rem;
+    margin-bottom: .12rem;
+}
+.post-wrap img{
+	width: 2rem;
+    height: 1.8rem;
+    margin-bottom: .16rem;
+}
+
+/*上传图上删除样式*/
+ .del {  
+    position: absolute;  
+    top:.08rem;  
+    right: .08rem;   
+    display: block;        
+ 	line-height: 1;  
+    cursor: pointer;  
+    color:#fff;  
+    width: .2rem;
+    height: .2rem;
+    border: 1px solid #fff;
+}  
+ .del:hover {  
+    border-color:#ff3333;  
+}  
+
+/*修改*/
+#input-address1{
+	width: 100%;
+  position: absolute;
+  left: 0;
+  padding-left: 1.5rem;
+  box-sizing: border-box;
+}
+.register2 .part1 ul li span{
+	position: relative;
+	z-index: 2;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,262 @@
+.content{
+	margin-top: 15px;
+}
+.part1{
+	padding: 30px;
+	background: #fff;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+.part1 .title{
+	font-size: 24px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-bottom: 18px;
+}
+.part1 .top{
+	font-size: 0;
+}
+.part1 .top img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.part1 .top .name{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 18px;
+	margin-left: 15px;
+	margin-right: 25px;
+}
+.part1 .top .date,
+.part1 .top .reason{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 14px;
+	color: #999;
+	margin-right: 25px;
+}
+.part1 .desc{
+	font-size: 0;
+	margin-top: 20px;
+}
+.part1 .desc div{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 60px;
+	font-size: 0;
+	cursor: pointer;
+}
+.part1 .desc img{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.part1 .desc i,
+.part1 .desc span{
+	font-size: 14px;
+	color: #999;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1;
+}
+
+.part2{
+	padding: 30px 60px;
+	background: #fff;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+.part2 .con p{
+	font-size: 16px;
+	line-height: 32px;
+	color: #555;
+}
+.part2 .con img{
+	margin: 15px auto;
+}
+.part2 .collect-wrapper{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background: #ddd;
+	text-align: center;
+	overflow: hidden;
+	margin: 40px auto 0;
+	cursor: pointer;
+}
+.part2 .collect-wrapper img{
+	width: 22px;
+	height: 22px;
+	display: block;
+    margin: 20px auto 6px;
+}
+.part2 .collect-wrapper span{
+	display: block;
+	font-size: 12px;
+	color: #999;
+}
+.part2 .collect-wrapper.on{
+	background: #FCCC18;
+}
+.part2 .collect-wrapper.on span{
+	color: #333;
+}
+
+.part3{
+	padding: 25px 30px 5px;
+	background: #fff;
+	border-radius: 3px;
+	margin-bottom: 45px;
+}
+.part3 .title{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.part3 .submit-wrapper{
+	font-size: 0;
+	margin-bottom: 25px;
+}
+.part3 .submit-wrapper input{
+	display: inline-block;
+	width: 1020px;
+	background: #f3f3f3;
+	height: 40px;
+	line-height: 38px;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #333;
+	padding: 0 10px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+}
+.part3 .submit-wrapper .submit-btn{
+	display: inline-block;
+	margin-left: 20px;
+}
+.part3 ul li{
+	font-size: 0;
+	border-top: 1px solid #ddd;
+	padding-top: 20px;
+}
+.part3 ul li .img1{
+	display: inline-block;	
+	vertical-align: top;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 25px;
+}
+.part3 ul li .li-con{
+	width: 1065px;
+	display: inline-block;	
+}
+.part3 ul li .li-con .top{
+	font-size: 0;
+	margin-bottom: 18px;
+}
+.part3 ul li .li-con .top .name{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 16px;
+	margin-right: 25px;
+}
+.part3 ul li .li-con .top .date{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 14px;
+	color: #999;
+	margin-right: 25px;
+}
+.part3 ul li .li-con .txt{
+	font-size: 14px;
+	line-height: 28px;
+	color: #555;
+}
+.part3 ul li .li-con .desc{
+	margin-bottom: 25px;
+}
+.part3 ul li .li-con .desc div{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 60px;
+	font-size: 0;
+	cursor: pointer;
+}
+.part3 ul li .li-con .desc div:last-child{
+	margin-right: 0;
+}
+.part3 ul li .li-con .desc img{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.part3 ul li .li-con .desc span{
+	font-size: 14px;
+	color: #999;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1;
+}
+.part3 ul li .li-con .evaluate{
+	display: none;
+}
+.part3 ul li .li-con .evaluate input{
+	width: 100%;
+	height: 40px;
+	line-height: 38px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	box-sizing: border-box;
+	padding: 0 10px;
+	font-size: 14px;
+	color: #555;
+	display: block;
+	margin-bottom: 16px;
+}
+.part3 ul li .li-con .evaluate .sure-btn{
+	margin-bottom: 16px;
+}
+
+.part3 ul li .evaluate-con{
+	position: relative;
+	width: 100%;
+	border-radius: 3px;
+	background: #F3F3F3;
+}
+.part3 ul li .evaluate-con p{
+	font-size: 14px;
+	color: #999;
+	line-height: 26px;
+	padding: 0 12px;
+}
+.part3 ul li .evaluate-con p:first-child{
+	padding-top: 8px;
+	margin-top: 20px;
+}
+.part3 ul li .evaluate-con p:last-child{
+	padding-bottom: 8px;
+	margin-bottom: 20px;
+}
+.part3 ul li .evaluate-con p span{
+	color: #333;
+}
+.part3 ul li .evaluate-con p span:last-child{
+	margin-right: 20px;
+}
+.part3 ul li .evaluate-wrapper:before{
+	content: '';
+	position: absolute;
+	left: 10px;
+	top: -10px;
+	z-index: 2;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 14px solid #F3F3F3;
+}
+

@@ -1,0 +1,326 @@
+.content{
+	margin-top: 15px;
+}
+.part1{
+	padding: 30px;
+	background: #fff;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+.part1 .title{
+	font-size: 24px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-bottom: 18px;
+}
+.part1 .top{
+	font-size: 0;
+}
+.part1 .top img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.part1 .top .middle{
+	width: 965px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 25px;
+}
+.part1 .top .middle-t p{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 18px;
+	margin-right: 25px;
+}
+
+.part1 .top .middle-t span{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 14px;
+	color: #999;
+	margin-right: 15px;
+}
+.part1 .top .middle-b{
+	margin-top: 10px;
+}
+.part1 .top .middle-b p{
+	color: #666;
+	font-size: 14px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+.part1 .top .middle-b span{
+	display: inline-block;
+	vertical-align: middle;
+	color: #FF6700;
+}
+
+.part2{
+	padding: 30px 60px;
+	background: #fff;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+.part2 .con p{
+	font-size: 16px;
+	line-height: 32px;
+	color: #555;
+}
+.part2 .con img{
+	margin: 15px auto;
+}
+.part2 .collect-wrapper{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background: #ddd;
+	text-align: center;
+	overflow: hidden;
+	margin: 40px auto 0;
+	cursor: pointer;
+}
+.part2 .collect-wrapper img{
+	width: 22px;
+	height: 22px;
+	display: block;
+    margin: 20px auto 6px;
+}
+.part2 .collect-wrapper span{
+	display: block;
+	font-size: 12px;
+	color: #999;
+}
+.part2 .collect-wrapper.on{
+	background: #FCCC18;
+}
+.part2 .collect-wrapper.on span{
+	color: #333;
+}
+.part2 .collect-wrapper{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background: #ddd;
+	text-align: center;
+	overflow: hidden;
+	margin: 40px auto 0;
+	cursor: pointer;
+}
+.part2 .collect-wrapper img{
+	width: 22px;
+	height: 22px;
+	display: block;
+    margin: 20px auto 6px;
+}
+.part2 .collect-wrapper span{
+	display: block;
+	font-size: 12px;
+	color: #999;
+}
+.part2 .collect-wrapper.on{
+	background: #FCCC18;
+}
+.part2 .collect-wrapper.on span{
+	color: #333;
+}
+
+.part3{
+	padding: 25px 30px;
+	background: #fff;
+	border-radius: 3px;
+}
+.part3 ul li{
+	float: left;
+	font-size: 20px;
+	margin-right: 60px;
+	color: #999;
+	line-height: 30px;
+	cursor: pointer;
+}
+.part3 ul li.on{
+	color: #333;
+}
+.part3 .submit-wrapper{
+	font-size: 0;
+	margin-top: 25px;
+}
+.part3 .submit-wrapper input{
+	display: inline-block;
+	width: 1020px;
+	background: #f3f3f3;
+	height: 40px;
+	line-height: 38px;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #333;
+	padding: 0 10px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+}
+.part3 .submit-wrapper .submit-btn{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.part4{
+	background: #fff;
+	border-radius: 3px;
+	margin-bottom: 45px;
+}
+.part4 .list1{
+	padding: 0 30px;
+	text-align: center;
+	font-size: 0;
+	background: #F3F3F3;
+}
+.part4 .list1 li{
+	width: 90px;
+	height: 68px;
+	border-bottom: 2px solid transparent;
+	color: #999;
+	text-align: center;
+	line-height: 66px;
+	box-sizing: border-box;
+	margin: 0 15px;
+	display: inline-block;
+	font-size: 20px;
+	cursor: pointer;
+}
+.part4 .list1 li.on{
+	border-bottom-color: #333;
+	color: #333;
+}
+.part4 .wrapper .item{
+	display: none;
+}
+.part4 .wrapper .item:first-child{
+	display: block;
+}
+.part4 .list2{
+	padding: 0 30px;
+}
+.part4 .list2 li{
+	font-size: 0;
+	border-bottom: 1px solid #ddd;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.part4 .list2 li:last-child{
+	border: 0;
+}
+.part4 .list2 li .img1{
+	display: inline-block;	
+	vertical-align: top;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 25px;
+}
+.part4 .list2 li .li-con{
+	width: 1065px;
+	display: inline-block;	
+}
+.part4 .list2 li .li-con .top{
+	font-size: 0;
+	margin-bottom: 18px;
+}
+.part4 .list2 li .li-con .top .name{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 16px;
+	margin-right: 25px;
+}
+.part4 .list2 li .li-con .top .date{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 14px;
+	color: #999;
+	margin-right: 25px;
+}
+.part4 .list2 li .li-con .txt{
+	font-size: 14px;
+	line-height: 28px;
+	color: #555;
+}
+
+/*上传图片*/
+.img-wrapper{
+	margin-top: 30px;
+	display: none;
+}
+.img-wrapper .img-box{
+	background: #F3F3F3;
+	display: inline-block;
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;	
+	vertical-align: middle;
+	width: 205px;
+	height: 205px;
+	margin-right: 24px;
+}
+.img-wrapper .img-box .p3{
+	font-size: 14px;
+	color: #999;
+	margin-top: 10px;
+}
+.img-wrapper .img-box .img1 {
+    display: block;
+    margin: 60px auto 22px;
+}
+.img-wrapper{
+	position: relative;
+}
+.img-wrapper #input_file{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 205px;
+	height: 205px;
+	opacity: 0;
+	cursor: pointer;
+}
+.img-wrapper .add-img{
+	display: inline-block;
+	vertical-align: middle;
+}
+.img-wrapper .add-img span{
+	width: 205px;
+	height: 205px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 24px;
+	position: relative;
+}
+.img-wrapper .add-img span img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.img-wrapper .add-img span i{
+	content: 'x';
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+	width: 30px;
+	height: 30px;
+	background: rgba(0,0,0,.3);
+	cursor: pointer;
+	text-align: center;
+	font-size: 20px;
+	line-height: 28px;
+	color: #FCCC18;
+	display: none;
+}
+.img-wrapper .add-img span:hover i{
+	display: block;
+}
+

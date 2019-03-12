@@ -1,0 +1,1 @@
+CREATE VIEW tfb_case_6214 AS SELECT tfb_case.*,ROUND(6378.138*2*ASIN(SQRT(POW(SIN((47.717031*PI()/180-latitude*PI()/180)/2),2)+COS(47.717031*PI()/180)*COS(latitude*PI()/180)*POW(SIN((128.875733*PI()/180-longitude*PI()/180)/2),2))),2) AS distance FROM tfb_case WHERE status = 1 AND whole_country <> 1
